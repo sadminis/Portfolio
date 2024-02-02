@@ -1,0 +1,120 @@
+/* font-family: 'Poppins', sans-serif; */
+
+.html {
+    width: 100%;
+}
+
+
+.colored-container {
+    min-height: 700px;
+    height: 76vh;
+    background-color: #eef3e5;
+}
+
+
+.spacing-div {
+    height: 88px;
+}
+
+
+/* Introduction */
+
+#Introduction {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    justify-content: space-around;
+    background-color: #eef3e5;
+    min-height: 700px;
+    height: 76vh;
+}
+
+.intro {
+    max-width: 500px;
+    /* margin-left: 20%; */
+}
+
+.intro p {
+    position: relative;
+    left: -25px;
+    bottom: -25px;
+}
+
+.intro-title{
+    position: relative;
+    bottom: -10px;
+    left: -25px;
+    width: 100%;
+}
+
+
+.lightbulb-gif {
+    display: flex;
+    max-width: 300px;
+    justify-content: center;
+    /* margin-right: 20%; */
+    margin-bottom: 3%;
+}
+
+.lightbulb-gif img {
+    max-height: 438px;
+}
+
+
+.intro-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 4.5rem;
+    font-size: 3rem;
+}
+
+.intro-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 1.2rem;
+    color: #666666;
+}
+
+
+
+/* About Me */
+
+#front-about-me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+}
+
+#front-about-me img {
+    margin-left: 7%;
+    max-width: 463px;
+}
+
+.about-me-word-section {
+    position: relative;
+    right: -32px;
+    max-width: 47%
+}
+
+.section-title {
+    position: relative;
+    bottom: -35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 26;
+    color: #617e4d;
+}
+
+.section-paragraph {
+    position:relative;
+    bottom: -73px;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #5b5b5b;
+}
+
+.project-image {
+    max-width: 300px;
+}
