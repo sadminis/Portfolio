@@ -4,6 +4,10 @@
     width: 100%;
 }
 
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
 
 .colored-container {
     min-height: 700px;
@@ -11,13 +15,16 @@
     background-color: #eef3e5;
 }
 
+.colored {
+    background-color: #eef3e5;
+}
 
 .spacing-div {
     height: 88px;
 }
 
 
-/* Introduction */
+/* Home Page */
 
 #Introduction {
     display: flex;
@@ -31,7 +38,6 @@
 
 .intro {
     max-width: 500px;
-    /* margin-left: 20%; */
 }
 
 .intro p {
@@ -52,7 +58,6 @@
     display: flex;
     max-width: 300px;
     justify-content: center;
-    /* margin-right: 20%; */
     margin-bottom: 3%;
 }
 
@@ -117,4 +122,22 @@
 
 .project-image {
     max-width: 300px;
+}
+
+/* featured Projects */
+
+#featured-projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+#myCarousel {
+    flex-basis: 100%;
+    border-radius: 10%;
+}
+
+#myCarousel img {
+    max-width: auto;
+    max-height: 465px;
 }
