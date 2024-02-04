@@ -135,6 +135,8 @@
 #myCarousel {
     flex-basis: 100%;
     border-radius: 10%;
+    position: relative;
+    bottom: -35px;
 }
 
 #myCarousel img {
