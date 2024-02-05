@@ -126,22 +126,17 @@
 
 /* featured Projects */
 
-#featured-projects {
-    display: flex;
-    flex-wrap: wrap;
-    width: 75%;
-}
-
 #myCarousel {
-    flex-basis: 100%;
-    border-radius: 10%;
-    position: relative;
-    top: 35px;
+    width: 75%;
+    margin: auto;
 }
 
-#myCarousel img {
-    max-width: auto;
-    max-height: 465px;
+#feature-project-text {
+    text-align: center;
+}
+
+.bd-placeholder-img {
+    max-height: 580px;
 }
 
 .about-me-projects {
