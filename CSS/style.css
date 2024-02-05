@@ -23,6 +23,13 @@
     height: 88px;
 }
 
+.spacing-div-small {
+    height: 40px;
+}
+
+.width75 {
+    width: 75%;
+}
 
 /* Home Page */
 
@@ -204,4 +211,35 @@
 
 .mb-4 {
     color: rgba(79,105,77,1);
+}
+
+
+.project-showcase {
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.project-intro .section-title {
+    top: 0px;
+
+}
+
+
+#summary-role-tools {
+    width: 75%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+
+.project-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10%;
+}
+
+.project-features div img {
+    max-width: 600px;
+    max-height: 400px;
 }
