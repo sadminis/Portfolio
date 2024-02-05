@@ -98,13 +98,13 @@
 
 .about-me-word-section {
     position: relative;
-    right: -32px;
+    left: 32px;
     max-width: 47%
 }
 
 .section-title {
     position: relative;
-    bottom: -35px;
+    top: 35px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 26;
@@ -113,7 +113,7 @@
 
 .section-paragraph {
     position:relative;
-    bottom: -73px;
+    top: 65px;
     line-height: 1.6rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -136,10 +136,77 @@
     flex-basis: 100%;
     border-radius: 10%;
     position: relative;
-    bottom: -35px;
+    top: 35px;
 }
 
 #myCarousel img {
     max-width: auto;
     max-height: 465px;
+}
+
+.about-me-projects {
+    width: 75%;
+}
+
+.album {
+    position: relative;
+    top: 25px;
+}
+
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #5b5b5b;
+}
+
+.card-text {
+    color: #666666;
+}
+
+
+
+
+
+#about-me {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    right: 45px;
+}
+
+
+#about-me .about-me-word-section {
+    position: relative;
+    right: 0px;
+    max-width: 45%
+}
+
+#about-me img {
+    position: relative;
+    max-width: 464px;
+}
+
+#quote {
+    height: 200px;
+    text-align: center;
+}
+
+#quote .section-title {
+    color: rgba(79,105,77,1);
+    font-size: 1.4rem;
+    position: relative;
+    top: 85px;
+}
+
+#resume {
+    position: relative;
+    left: 100px;
+}
+
+.mb-4 {
+    color: rgba(79,105,77,1);
 }
