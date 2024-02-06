@@ -134,7 +134,7 @@
 /* featured Projects */
 
 #myCarousel {
-    width: 75%;
+    width: 70%;
     margin: auto;
 }
 
@@ -142,9 +142,9 @@
     text-align: center;
 }
 
-.bd-placeholder-img {
+/* .bd-placeholder-img {
     max-height: 580px;
-}
+} */
 
 .about-me-projects {
     width: 75%;
@@ -217,7 +217,7 @@
 .project-showcase {
     width: 75%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
 }
 
 .project-intro .section-title {
@@ -226,7 +226,7 @@
 }
 
 
-#summary-role-tools {
+#Design-Philosophy {
     width: 75%;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -242,4 +242,23 @@
 .project-features div img {
     max-width: 600px;
     max-height: 400px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+.margin-auto {
+    margin: auto;
+}
+
+
+.rounded {
+    border-radius: 50%;
+}
+
+.centered-element {
+    display: grid;
+	align-items: center;
 }
