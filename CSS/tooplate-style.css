@@ -221,7 +221,7 @@ b, strong {
   transform: translateY(-100%);
 }
 
-.navbar-light .navbar-toggler-icon {
+/* .navbar-light .navbar-toggler-icon {
   background: none;
 }
 
@@ -257,7 +257,7 @@ b, strong {
   margin: 5px 0;
   transition: all 0.4s ease;
   position: relative;
-}
+} */
 
 .copyright-text {
   font-size: 16px;
@@ -505,11 +505,11 @@ b, strong {
     font-size: 28px;
   }
 
-  .navbar-collapse {
+  /* .navbar-collapse {
     background: #ffffff;
     text-align: center;
     padding-bottom: 20px;
-  }
+  } */
 
   .navbar-expand-sm .navbar-nav .nav-link {
     padding: 3px 20px;
